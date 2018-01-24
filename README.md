@@ -1,6 +1,3 @@
-# Update: 
-Thanks everyone for using, supporting and contributing to react-native-auto-updater. In the last couple of months, we have not had time/resources to maintain this repo as we diverted our focus on our new product, [Amium](https://www.amium.com). As a result of that, I will not be able to resolve issues or review pull requests on this repo. Bottomline, we have stopped maintaining this repo. As for an alternative, we recommend using [CodePush](https://microsoft.github.io/code-push/).
-
 # react-native-auto-updater
 
 [![License](https://img.shields.io/cocoapods/l/ReactNativeAutoUpdater.svg?style=flat)](http://cocoapods.org/pods/ReactNativeAutoUpdater)
@@ -46,6 +43,13 @@ Here's what the fields in the JSON mean:
 * `url.isRelative` — this tells if the provided URL is a relative URL (when set to `true`, you need to set the hostname by using the method `(void)setHostnameForRelativeDownloadURLs:(NSString*)hostname;`)
 
 `react-native-auto-updater` needs know the location of this JSON file upon initialization.
+
+## Install
+
+`  yarn add react-native-auto-updater`
+
+ - Android
+ - iOS
 
 ## Screenshots
 
